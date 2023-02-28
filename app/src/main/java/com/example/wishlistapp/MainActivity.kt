@@ -10,7 +10,7 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
-    private val itemsList = ArrayList<wish>()
+    private val itemsList = ArrayList<calorie>()
     private lateinit var customAdapter: CustomAdapter
 
 
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun prepareItems(_a: TextView, _b: TextView, _c: String) {
-        itemsList.add(wish(url = _a, store =_b, num = _c.toString()))
+        itemsList.add(calorie(url = _a, store =_b, num = _c.toString()))
         customAdapter.notifyDataSetChanged()
     }
 }

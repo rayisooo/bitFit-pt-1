@@ -3,12 +3,11 @@ package com.example.wishlistapp
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.EditText
 import android.widget.TextView
 import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
 
-internal class CustomAdapter(private var itemsList: ArrayList<wish>) :
+internal class CustomAdapter(private var itemsList: ArrayList<calorie>) :
     RecyclerView.Adapter<CustomAdapter.MyViewHolder>() {
     internal inner class MyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         var itemTextView: TextView = view.findViewById(R.id.itemTextView)

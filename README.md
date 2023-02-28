@@ -1,8 +1,8 @@
 # Android Project 5 - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: **RAYMOND OTOADESE**
 
-**Bit Fit** is a health metrics app that allows users to track ... [TODO] 
+**Bit Fit** is a health metrics app that allows users to track ... [CALORIES] 
 
 Time spent: **5** hours spent in total
 

@@ -25,18 +25,18 @@ class MainActivity : AppCompatActivity() {
 
         var _store: TextView = findViewById(R.id.editTextTextPersonName)
         var _url : TextView = findViewById(R.id.editTextTextPersonName2)
-        var _price : TextView = findViewById(R.id.editTextNumber)
+        //var _price : TextView = findViewById(R.id.editTextNumber)
 
         val submit_btn = findViewById<Button>(R.id.button)
 
         //wish(url =  , store = , num = )
         submit_btn.setOnClickListener{
-            prepareItems(_url , _store , _price )
+            prepareItems(_url , _store ,"Calories" )
         }
     }
 
 
-    private fun prepareItems(_a: TextView, _b: TextView, _c: TextView) {
+    private fun prepareItems(_a: TextView, _b: TextView, _c: String) {
         itemsList.add(wish(url = _a, store =_b, num = _c.toString()))
         customAdapter.notifyDataSetChanged()
     }

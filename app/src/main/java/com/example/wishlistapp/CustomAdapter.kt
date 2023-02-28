@@ -25,7 +25,7 @@ internal class CustomAdapter(private var itemsList: ArrayList<wish>) :
         val item = itemsList.get(position)
 
         holder.itemTextView.text = item.store.text
-        holder.text3.text = "900"
+        holder.text3.text = item.num.toString()
         holder.text2.text = item.url.text
 
     }
